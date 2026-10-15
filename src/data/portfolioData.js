@@ -110,12 +110,14 @@ export const skillCategories = [
 ];
 
 export const projects = [
-  { id: 1, title: 'E-Commerce Platform', description: 'A modern storefront with cart, checkout, order tracking, and an admin dashboard for inventory.', image: '/images/project-1.jpg', technologies: ['React', 'Node.js', 'MongoDB'], github: '#', liveDemo: '#' },
-  { id: 2, title: 'Task Management App', description: 'Kanban-style task board with drag and drop, team workspaces, and due-date reminders.', image: '/images/project-2.jpg', technologies: ['React', 'Express', 'PostgreSQL'], github: '#', liveDemo: '#' },
-  { id: 3, title: 'AI Chat Application', description: 'Real-time chat interface with streaming AI responses, conversation history, and prompt templates.', image: '/images/project-3.jpg', technologies: ['Next.js', 'TypeScript', 'WebSockets'], github: '#', liveDemo: '#' },
-  { id: 4, title: 'Developer Portfolio', description: 'A fast, accessible portfolio template that is customised entirely from a single data file.', image: '/images/project-4.jpg', technologies: ['React', 'CSS', 'Vite'], github: '#', liveDemo: '#' },
-  { id: 5, title: 'Finance Dashboard', description: 'Interactive spending analytics with charts, budgets, and CSV export for personal finance.', image: '/images/project-5.jpg', technologies: ['React', 'D3', 'Node.js'], github: '#', liveDemo: '#' },
-  { id: 6, title: 'Blog / CMS Platform', description: 'Headless CMS with markdown editing, role-based access, scheduled publishing, and SEO tools.', image: '/images/project-6.jpg', technologies: ['Next.js', 'MongoDB', 'Tailwind CSS'], github: '#', liveDemo: '#' },
+  { id: 1, title: 'CipherDrop', description: 'Secure, real-time temporary group chat with in-memory zero-retention messaging, automated session destruction, and live server telemetry. ', image: '/images/project-1.png', technologies: ['React', 'Node.js', 'MongoDB'], github: '#', liveDemo: '#' },
+  { id: 2, title: 'AutoCareer Radar', description: ' Automated software company career page crawler and real-time job board. Scrapes tech career portals daily, monitors new engineering vacancies, and alerts candidates the moment new roles drop.', image: '/images/project-2.jpg', technologies: ['React', 'Express', 'PostgreSQL'], github: '#', liveDemo: '#' },
+  { id: 3, title: 'WishCraft', description: 'Personalized Cards, Proposals & Posters Every Feeling Deserves a Beautiful Card.Create stunning greeting cards, romantic messages, festival wishes, invitations, and personalized posters in minutes. Share your creation with anyone through a simple direct link.', image: '/images/project-3.jpg', technologies: ['Next.js', 'TypeScript', 'WebSockets'], github: '#', liveDemo: '#' },
+  { id: 4, title: 'A Typing-Keyboard Piano', description: ' Turn your keyboard into a piano, play your favorite tunes, and learn songs note by note.  ', image: '/images/project-4.jpg', technologies: ['React', 'CSS', 'Vite'], github: '#', liveDemo: '#' },
+  { id: 5, title: 'KEYSTROKE LAB', description: ' Build your typing speed, accuracy, and confidence with fun tests, focused practice, and exciting typing games. No sign-up, no downloads—just type, play, and improve.  ', image: '/images/project-5.jpg', technologies: ['React', 'D3', 'Node.js'], github: '#', liveDemo: '#' },
+  { id: 6, title: 'NOTESKEEPER', description: '  Capture your thoughts, organize your notes, and keep your ideas in one place. Simple, quick, and always ready when inspiration strikes. ', image: '/images/project-6.jpg', technologies: ['Next.js', 'MongoDB', 'Tailwind CSS'], github: '#', liveDemo: '#' },
+  { id: 7, title: '', description: '   ', image: '/images/project-7.jpg', technologies: ['Next.js', 'MongoDB', 'Tailwind CSS'], github: '#', liveDemo: '#' },
+  { id: 8, title: '', description: '   ', image: '/images/project-8.jpg', technologies: ['Next.js', 'MongoDB', 'Tailwind CSS'], github: '#', liveDemo: '#' },
 ];
 
 export const education = [
