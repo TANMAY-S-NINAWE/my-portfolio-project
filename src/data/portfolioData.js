@@ -47,11 +47,11 @@ export const aboutData = {
     { id: 'tech', value: '5+', label: 'Technologies used' },
   ],
   highlights: [
-    'Led a frontend rebuild that cut page load time by 45%',
-    'Shipped 10+ production APIs serving 100k+ monthly users',
-    'Mentored 6 junior developers through code review and pairing',
+   'Built 8 personal projects using React, JavaScript, TypeScript, and Tailwind CSS',
+   'Developed full-stack applications with REST APIs, databases, and real-time features',
+   'Deployed live projects and maintained code repositories on GitHub',
   ],
-  technologies: ['React', 'Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'MongoDB', 'Docker', 'Tailwind CSS'],
+  technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB',  'Tailwind CSS'],
   currentFocus: ['Accessible UI systems', 'Performance engineering', 'AI-powered features', 'Cloud-native deployment'],
 };
 
@@ -93,7 +93,7 @@ export const skillCategories = [
     skills: [
       { name: 'MongoDB', icon: SiMongodb, level: 85 },
       { name: 'PostgreSQL', icon: SiPostgresql, level: 82 },
-      { name: 'MySQL', icon: SiMysql, level: 78 },
+      { name: 'MySQL', icon: SiMysql, level: 40},
     ],
   },
   {
@@ -110,14 +110,14 @@ export const skillCategories = [
 ];
 
 export const projects = [
-  { id: 1, title: 'CipherDrop', description: 'Secure, real-time temporary group chat with in-memory zero-retention messaging, automated session destruction, and live server telemetry. ', image: '/images/project-1.png', technologies: ['React', 'Node.js', 'MongoDB'], github: '#', liveDemo: '#' },
-  { id: 2, title: 'AutoCareer Radar', description: ' Automated software company career page crawler and real-time job board. Scrapes tech career portals daily, monitors new engineering vacancies, and alerts candidates the moment new roles drop.', image: '/images/project-2.jpg', technologies: ['React', 'Express', 'PostgreSQL'], github: '#', liveDemo: '#' },
-  { id: 3, title: 'WishCraft', description: 'Personalized Cards, Proposals & Posters Every Feeling Deserves a Beautiful Card.Create stunning greeting cards, romantic messages, festival wishes, invitations, and personalized posters in minutes. Share your creation with anyone through a simple direct link.', image: '/images/project-3.jpg', technologies: ['Next.js', 'TypeScript', 'WebSockets'], github: '#', liveDemo: '#' },
-  { id: 4, title: 'A Typing-Keyboard Piano', description: ' Turn your keyboard into a piano, play your favorite tunes, and learn songs note by note.  ', image: '/images/project-4.jpg', technologies: ['React', 'CSS', 'Vite'], github: '#', liveDemo: '#' },
-  { id: 5, title: 'KEYSTROKE LAB', description: ' Build your typing speed, accuracy, and confidence with fun tests, focused practice, and exciting typing games. No sign-up, no downloads—just type, play, and improve.  ', image: '/images/project-5.jpg', technologies: ['React', 'D3', 'Node.js'], github: '#', liveDemo: '#' },
-  { id: 6, title: 'NOTESKEEPER', description: '  Capture your thoughts, organize your notes, and keep your ideas in one place. Simple, quick, and always ready when inspiration strikes. ', image: '/images/project-6.jpg', technologies: ['Next.js', 'MongoDB', 'Tailwind CSS'], github: '#', liveDemo: '#' },
-  { id: 7, title: '', description: '   ', image: '/images/project-7.jpg', technologies: ['Next.js', 'MongoDB', 'Tailwind CSS'], github: '#', liveDemo: '#' },
-  { id: 8, title: '', description: '   ', image: '/images/project-8.jpg', technologies: ['Next.js', 'MongoDB', 'Tailwind CSS'], github: '#', liveDemo: '#' },
+  { id: 1, title: 'CipherDrop', description: 'Secure, real-time temporary group chat with in-memory zero-retention messaging, automated session destruction, and live server telemetry. ', image: '/images/project-1.png', technologies: ['React', 'Node.js', 'MongoDB'], github: 'https://github.com/TANMAY-S-NINAWE/cipherdrop---ephemeral-secret-group-chat', liveDemo: 'https://secret-code.ai.studio/' },
+  { id: 2, title: 'AutoCareer Radar', description: ' Automated software company career page crawler and real-time job board. Scrapes tech career portals daily, monitors new engineering vacancies, and alerts candidates the moment new roles drop.', image: '/images/project-2.jpg', technologies: ['React', 'Express', 'PostgreSQL'], github: 'https://github.com/TANMAY-S-NINAWE/autocareer_radar_real_time_career_page_job_crawler', liveDemo: 'https://autocareer-radar-real-time-career-p.vercel.app/' },
+  { id: 3, title: 'WishCraft', description: 'Personalized Cards, Proposals & Posters Every Feeling Deserves a Beautiful Card.Create stunning greeting cards, romantic messages, festival wishes, invitations, and personalized posters in minutes. Share your creation with anyone through a simple direct link.', image: '/images/project-3.jpg', technologies: ['React.js', 'TypeScript'], github: 'https://github.com/TANMAY-S-NINAWE/wishcraft---greeting-card---poster-studio', liveDemo: 'https://tnscards.ai.studio/' },
+  { id: 4, title: 'A Typing-Keyboard Piano', description: ' Turn your keyboard into a piano, play your favorite tunes, and learn songs note by note.  ', image: '/images/project-4.jpg', technologies: ['React', 'CSS', 'Vite'], github: 'https://github.com/TANMAY-S-NINAWE/piano', liveDemo: 'https://tanmay-s-ninawe.github.io/piano/' },
+  { id: 5, title: 'KEYSTROKE LAB', description: ' Build your typing speed, accuracy, and confidence with fun tests, focused practice, and exciting typing games. No sign-up, no downloads—just type, play, and improve.  ', image: '/images/project-5.jpg', technologies: ['React', 'Tailwind CSS'], github: 'https://github.com/TANMAY-S-NINAWE/KEYSTROKE-LAB-Typing-practice-games', liveDemo: 'https://tanmay-s-ninawe.github.io/KEYSTROKE-LAB-Typing-practice-games/' },
+  { id: 6, title: 'NOTESKEEPER', description: ' Capture your thoughts, organize your notes, and keep your ideas in one place. Simple, quick, and always ready when inspiration strikes. ', image: '/images/project-6.jpg', technologies: ['react.js', 'Tailwind CSS'], github: 'https://github.com/TANMAY-S-NINAWE/NoteKeeper', liveDemo: 'https://note-keeper-six-fawn.vercel.app/' },
+  { id: 7, title: ' UI Design Project', description: ' Designed a clean, modern, and user-friendly interface with an attractive layout, consistent colors, and smooth navigation to improve the overall user experience.  ', image: '/images/project-7.jpg', technologies: ['React.js',  'Tailwind CSS'], github: 'https://github.com/TANMAY-S-NINAWE/UI-Project ', liveDemo: 'https://ui-project-theta-amber.vercel.app/' },
+  { id: 8, title: 'React Mini Projects Using Props', description: ' Developed a reusable Product Card Gallery using React props to display product images, names, prices, and descriptions. This project demonstrates component reusability, data passing through props, and responsive UI design.  ', image: '/images/project-8.jpg', technologies: ['React.js',  'Tailwind CSS'], github: 'https://github.com/TANMAY-S-NINAWE/Props-Project', liveDemo: 'https://props-project-liart.vercel.app/' },
 ];
 
 export const education = [
@@ -137,6 +137,11 @@ export const achievements = [
   //   { id: 'a2', title: 'Best Newcomer', detail: 'BrightPath Software', year: '2020' } ] },
   { id: 'certifications', category: 'Certifications', items: [
     { id: 'c1', title: 'Developing Sites for the Web', detail: 'IBM', year: '2026' },
+    // { id: 'c2', title: 'Meta Front-End Developer', detail: 'Coursera', year: '2021' }
+  ]
+  },
+  { id: 'certifications', category: 'Certifications', items: [
+    { id: 'c2', title: 'Namaste JavaScript', detail: 'NamasteDev.com', year: '2025' }, 
     // { id: 'c2', title: 'Meta Front-End Developer', detail: 'Coursera', year: '2021' }
   ]
   },
